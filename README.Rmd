@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# watt
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+`watt` provides tools to perform tidy power analysis. It is in very early development, and may not even fully exist at all! Mostly it just wraps some fun functions.
+
+## Installation
+
+No CRAN repo exists yet, but you can install from GitHub by using:
+
+```{r, eval=FALSE}
+devtools::install_github('cu-boulder/watt')
+```

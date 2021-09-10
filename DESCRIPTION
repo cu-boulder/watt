@@ -6,6 +6,7 @@ Authors@R:
            family = "Shaffery",
            role = c("aut", "cre"),
            email = "petersh@ffery.org",
+           )
 Description: Tidy power analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
