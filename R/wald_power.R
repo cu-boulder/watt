@@ -1,4 +1,4 @@
-#' wald.power
+#' wald_power
 #' Compute the power of a Wald test statistic for the jth coefficient of parameter vector beta
 #'
 #' @param X matrix The design matrix of the experiment
@@ -15,5 +15,5 @@ wald_power = function(X, beta, j, sig=.05,model='logit'){
   I = fim(X,beta,model=model)
   Vj = solve(I)[j,j]
 
-  return( pnorm( -z_alpha(sig)  + beta[j]/sqrt(Vj) ) + pnorm( -z_alpha(sig)  - beta[j]/sqrt(Vj) ) )
+  return( stats::pnorm( -z_alpha(sig)  + beta[j]/sqrt(Vj) ) + stats::pnorm( -z_alpha(sig)  - beta[j]/sqrt(Vj) ) )
 }

@@ -2,7 +2,8 @@
 % Please edit documentation in R/utils.R
 \name{z_alpha}
 \alias{z_alpha}
-\title{Evaluate the 1-alpha/2 quantile of a std normal}
+\title{z_alpha
+Evaluate the 1-alpha/2 quantile of a std normal}
 \usage{
 z_alpha(alpha)
 }
@@ -13,5 +14,6 @@ z_alpha(alpha)
 numeric
 }
 \description{
+z_alpha
 Evaluate the 1-alpha/2 quantile of a std normal
 }

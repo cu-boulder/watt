@@ -2,7 +2,8 @@
 % Please edit documentation in R/utils.R
 \name{inv_logit}
 \alias{inv_logit}
-\title{Evaluate the inverse logit function, ie. the logitistic function}
+\title{inv_logit
+Evaluate the inverse logit function, ie. the logitistic function}
 \usage{
 inv_logit(z)
 }
@@ -13,5 +14,6 @@ inv_logit(z)
 numeric
 }
 \description{
+inv_logit
 Evaluate the inverse logit function, ie. the logitistic function
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/wald_power.R
 \name{wald_power}
 \alias{wald_power}
-\title{wald.power
+\title{wald_power
 Compute the power of a Wald test statistic for the jth coefficient of parameter vector beta}
 \usage{
 wald_power(X, beta, j, sig = 0.05, model = "logit")
@@ -22,6 +22,6 @@ wald_power(X, beta, j, sig = 0.05, model = "logit")
 numeric
 }
 \description{
-wald.power
+wald_power
 Compute the power of a Wald test statistic for the jth coefficient of parameter vector beta
 }
