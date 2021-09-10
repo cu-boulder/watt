@@ -2,4 +2,5 @@
 
 export(fim)
 export(fim_weights_logit)
+export(mde)
 export(wald_power)
