@@ -6,7 +6,7 @@
 #'
 #' @return numeric
 #'
-inv.logit = function(z) {
+inv_logit = function(z) {
   return(1/(1+exp(-z)))
 }
 
@@ -16,6 +16,6 @@ inv.logit = function(z) {
 #'
 #' @return numeric
 #'
-z.alpha = function(alpha){
+z_alpha = function(alpha){
   qnorm(1-(alpha/2))
 }
