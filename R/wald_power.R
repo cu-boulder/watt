@@ -11,7 +11,7 @@
 #' @export
 #'
 #'
-wald_power = function(X, beta, j, sig=.05,model='logit'){
+wald_power = function(X, beta, j, sig=.05, model='logit'){
   I = fim(X,beta,model=model)
   Vj = solve(I)[j,j]
 

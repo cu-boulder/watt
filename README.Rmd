@@ -27,3 +27,5 @@ No CRAN repo exists yet, but you can install from GitHub by using:
 ```{r, eval=FALSE}
 devtools::install_github('cu-boulder/watt')
 ```
+
+## Motivation

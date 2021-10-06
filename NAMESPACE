@@ -3,4 +3,6 @@
 export(fim)
 export(fim_weights_logit)
 export(mde)
+export(power_curve)
+export(sample_X)
 export(wald_power)
